@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaMethodUtil.iml" filepath="$PROJECT_DIR$/.idea/JavaMethodUtil.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timeUtil/timeUtil.iml" filepath="$PROJECT_DIR$/timeUtil/timeUtil.iml" />
+    </modules>
+  </component>
+</project>
