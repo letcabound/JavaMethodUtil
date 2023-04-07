@@ -1,0 +1,2 @@
+1.当json返回来的某个字段本来应该是数组，但是返回为null或""，可以先判断返回json对应字段的格式类型。
+        如：result.get("data").isJsonArray()

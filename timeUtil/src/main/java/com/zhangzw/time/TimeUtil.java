@@ -1,29 +1,10 @@
 package com.zhangzw.time;
 
-import org.apache.commons.lang3.time.DateUtils;
-
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.TimeZone;
 
-public class Main {
-
-    public static void main(String[] args) throws ParseException {
-
-        // DateUtils工具类使用
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-
-        Date date = DateUtils.addDays(sdf.parse("2023-02-27"), 3);
-        Date date1 = DateUtils.parseDate("2023-03-05", "yyyy-MM-dd");
-
-        System.out.println(sdf.format(date));
-        System.out.println(sdf.format(date1));
-
-    }
-
-
+public class TimeUtil {
 
     /**
      * 要求获取 当前月的下一个月的第一天。
@@ -98,5 +79,4 @@ public class Main {
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return sdf.format(cal.getTime());
     }
-
 }
