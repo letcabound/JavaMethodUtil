@@ -4,3 +4,9 @@
 4.当前季度的最后一天
 5.DateUtils工具类的使用，如DateUtils.addDays(Date, int)，DateUtils.addMonths(Date, int)等。
     DateUtils需要引入Maven包：commons-lang3
+
+6.DateUtils类是主要用于处理旧的日期和时间API（如java.util.Date和java.util.Calendar）而集成的工具类。
+    如果你需要执行一些常见的日期和时间操作，可以考虑使用DateUtils类。
+    如果你正在编写新代码，建议使用Java 8中引入的新的日期和时间API（如LocalDate、LocalDateTime和ZonedDateTime）。
+
+7.LocalDate,LocalDateTime,ZonedDateTime三个类基本可以覆盖java.util.Date类的大部分功能。
